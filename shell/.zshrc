@@ -29,9 +29,6 @@ done
 
 unset file
 
-# Alias hub to git
-eval "$(hub alias -s)"
-
 # Sudoless npm https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md
 NPM_PACKAGES="${HOME}/.npm-packages"
 export PATH="$PATH:$NPM_PACKAGES/bin"
